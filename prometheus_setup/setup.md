@@ -3,6 +3,9 @@
 
 https://prometheus.io/docs/introduction/first_steps/
 
+For Mac user, download darwin-amd64.tar.gz, untar and cd to prom repo, run `./prometheus`, which will initialize a prometheus server in your local
+and create a /data folder, all the scraped data will be stored here by default.
+
 ## Configure Prometheus
 
 Prometheus Monitoring requires a system configuration usually in the form a `.yaml` file. For example, here is
